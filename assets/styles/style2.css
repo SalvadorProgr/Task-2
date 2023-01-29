@@ -33,16 +33,23 @@ h2{
     box-shadow: 4px 4px 15px rgb(180, 212, 212);
 }
 .nav{
-    margin-left: 30px;
-    margin-top: 80px;
+    margin-left: 930px;
+    margin-top: -530px;
     font-size: 20px;
-    
+    position: absolute;
 }
 .lista{
     list-style: none;
 }
 .elementos-lista{
-    margin: 35px;
+    margin: 15px;
+    float: left;
+    background: rgb(61, 126, 206);
+    padding: 5px 12px;
+    box-shadow: 5px 4px black;
+}
+a{
+    color: white;
 }
 .section-h2{
     position: relative;
