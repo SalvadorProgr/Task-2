@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Exa', sans-serif;
+}
+.image-header{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin-top: px;
+    border: 2px solid black;
+}
+h1{
+    font-size: 70px;
+    position: relative;
+    font-style: italic;
+    background: linear-gradient(rgb(165, 235, 163), #f1ef75);
+    padding: 15px;
+    
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    margin-top: -5px;
+    background: linear-gradient(#f1ef75,rgb(165, 235, 163));
+    padding: 15px;
+}
+.image-logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 80px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 4px 4px 15px rgb(180, 212, 212);
+}
+.nav{
+    margin-left: 930px;
+    margin-top: -530px;
+    font-size: 20px;
+    position: absolute;
+}
+
+a{
+    margin: 15px;
+    float: left;
+    background: rgb(61, 126, 206);
+    padding: 5px 12px;
+    box-shadow: 5px 4px #00000063;
+    color: white;
+    border: 2px solid black;
+    text-decoration: none;
+}
+.paradoEn{
+    background: #60ad60;
+}
+
+.section-h2{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.article-h3{
+    margin: 25px;
+}
+.article-h3 p{
+    text-indent: 15px;
+}
+p a{
+    background: none;
+    color: blue;
+    border: none;
+    box-shadow: none;
+    float: none;
+    margin: 0;
+}
