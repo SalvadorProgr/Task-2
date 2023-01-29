@@ -8,15 +8,17 @@
     width: 100%;
     height: 450px;
     position: relative;
-    margin-top: 100px;
+    margin-top: 80px;
     border: 2px solid black;
 }
 h1{
-    font-size: 80px;
+    font-size: 70px;
     position: absolute;
+    font-style: italic;
 }
 h2{
     font-size: 40px;
+    font-weight: 700;
     text-align: center;
     color: black;
     border: 2px solid black;
@@ -26,8 +28,8 @@ h2{
     width: 150px;
     height: 150px;
     position: absolute;
-    margin-left: 1050px;
-    margin-top: -100px;
+    margin-left: 40px;
+    margin-top: 80px;
     border: 2px solid black;
     background-color: white;
     box-shadow: 4px 4px 15px rgb(180, 212, 212);
@@ -38,25 +40,30 @@ h2{
     font-size: 20px;
     position: absolute;
 }
-.lista{
-    list-style: none;
-}
-.elementos-lista{
+
+a{
     margin: 15px;
     float: left;
     background: rgb(61, 126, 206);
     padding: 5px 12px;
-    box-shadow: 5px 4px black;
-}
-a{
+    box-shadow: 5px 4px #00000063;
     color: white;
+    border: 2px solid black;
+    text-decoration: none;
 }
+.paradoEn{
+    background: #60ad60;
+}
+
 .section-h2{
-    position: relative;
-    margin-left: 250px;
-    margin-bottom: 600px;
-    margin-top: -175px;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 20px;
+    padding: 30px;
 }
 .article-h3{
-    margin-bottom: 18px;
+    margin: 25px;
+}
+.article-h3 p{
+    text-indent: 15px;
 }
