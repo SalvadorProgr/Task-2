@@ -10,7 +10,7 @@
     position: relative;
 }
 h1{
-    font-size: 60px;
+    font-size: 80px;
     position: absolute;
     z-index: 1;
     text-shadow: rgb(224, 240, 133) 5px 0 5px;
