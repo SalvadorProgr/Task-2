@@ -103,6 +103,21 @@ p a{
     float: none;
     margin: 0;
 }
+/* from here page rules */
+.subtitulo{
+    text-align: center;
+    font-size: 26px;
+    padding: 15px;
+    margin: 15px;
+}
+.subtitulo-negrita{
+    font-size: 30px;
+    padding: 25px 100px;
+}
+.parrafo-rules{
+    font-size: 20px;
+    padding: 25px 100px;
+}
 /* from here the table */
 .flex-contain{
     display: flex;
