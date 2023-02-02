@@ -114,13 +114,44 @@ p a{
     font-size: 30px;
     padding: 25px 100px;
 }
-.parrafo-rules{
-    font-size: 20px;
+
+span{
+    font-weight: 700;
+}
+span#suave{
+    font-weight: 500;
+}
+.parrafo-sportsmanship{
+    text-indent: 80px;
+    font-size: 25px;
     padding: 25px 100px;
 }
+ol{
+    font-size: 25px;
+    padding: 25px 100px;
+    margin-left: 30px;
+}
+.dimensiones>li{
+    padding-bottom: 50px;
+}
+#campos{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+ul{
+    font-size: 25px;
+    padding: 25px 100px;
+    margin-left: 110px;
+}
+ul>li{
+    text-indent: 45px;
+    list-style-type: circle;
+}
+
 /* from here the table */
 .flex-contain{
     display: flex;
+    margin-left: 25px;
 }
 table{
     padding: 10px;
