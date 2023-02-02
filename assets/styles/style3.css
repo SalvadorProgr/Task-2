@@ -129,7 +129,6 @@ span#suave{
 ol{
     font-size: 25px;
     padding: 25px 100px;
-    margin-left: 30px;
 }
 .dimensiones>li{
     padding-bottom: 50px;
@@ -142,16 +141,23 @@ ul{
     font-size: 25px;
     padding: 25px 100px;
     margin-left: 110px;
-}
-ul>li{
-    text-indent: 45px;
-    list-style-type: circle;
+    
 }
 
+li{
+    list-style-position: inside;
+}
+.ultimo-ul>li{
+    margin-left: -25px;
+    list-style-type: circle;
+}
 /* from here the table */
 .flex-contain{
     display: flex;
     margin-left: 25px;
+}
+h4{
+    text-decoration-line: underline;
 }
 table{
     padding: 10px;
