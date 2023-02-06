@@ -230,13 +230,13 @@ fieldset{
 }
 .radiocuadrado{
     
-    -webkit-appearance: none;
+    appearance: none;
     border: 1px solid black;
     padding: 0.5em;
     
 }
 .radiocuadrado:checked{
-    background: #f1ef75 no-repeat center center;
+    background: #000000;
 }
 .parent{
     border-top: none;
