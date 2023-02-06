@@ -191,3 +191,60 @@ th{
     margin-top: -53px;
 }
 
+/* from here form */
+fieldset{
+    padding: 20px 150px;
+}
+.pre-school{
+    display: inline;
+}
+.name{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.last-name{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.address{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.city{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.zip-code{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.date{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.radiocuadrado{
+    
+    -webkit-appearance: none;
+    border: 1px solid black;
+    padding: 0.5em;
+    
+}
+.radiocuadrado:checked{
+    background: #f1ef75 no-repeat center center;
+}
+.parent{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.date{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
