@@ -203,6 +203,9 @@ fieldset{
     border: 0;
     align-content: space-between;
 }
+input{
+    font-size: 18px;
+}
 
 
 .name{
@@ -225,6 +228,13 @@ fieldset{
 }
 .pre-school{
     display: inline;
+}
+.school label{
+    font-weight: 700;
+}
+select{
+    margin-top: 20px;
+    font-size: 18px;
 }
 .school{
     width: 100%;
