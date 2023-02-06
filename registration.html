@@ -33,55 +33,70 @@
     </header>
     <main>
         <form action="show_data.html">
-            <fieldset>
-                <label for="name">Player´s First Name:</label>
-                <input class="name" type="text" name="name" id="name">
-                <label for="last-name">Last Name:</label>
-                <input class="last-name"type="text" name="last-name" id="last-name">
-                <label for="address">Street Address:</label>
-                <input class="address"type="text" name="address" id="address">
-                <label for="city">City:</label>
-                <input class="city" type="text" name="city" id="city">
-                <label for="zip-code">Zip Code:</label>
-                <input class="zip-code" type="text" name="zip-code" id="zip-code">
-                <label for="birth">Birth Date: (mm/dd/yyyy)</label>
-                <input class="date" type="date" name="birth" id="birth">
-                <label for="gender">Gender: Female</label>
-                <input type="radio" name="gender" id="gender">
-                <label for="gender">Male</label>
-                <input type="radio" name="gender" id="gender">
-                <p class="pre-school">Grade:</p>
-                <input class="radiusquare" type="radio" name="grade" id="pre-school" value="pre-school">
-                <label for="grade">Pre-School</label>
-                <input class="radiusquare" type="radio" name="grade" id="grade" value="1st">
-                <label for="grade"><sup>1st</sup></label>
-                <input class="radiusquare" type="radio" name="grade" id="grade" value="2nd">
-                <label for="grade"><sup>2nd</sup></label>
-                <input class="radiusquare" type="radio" name="grade" id="grade" value="3rd">
-                <label for="grade"><sup>3rd</sup></label>
-                <input class="radiusquare" type="radio" name="grade" id="grade" value="4th">
-                <label for="grade"><sup>4th</sup></label>
-                <input class="radiusquare" type="radio" name="grade" id="grade" value="5th">
-                <label for="grade"><sup>5th</sup></label>
+            <fieldset class="personal-date">
+                <div class="name-lastname">
+                    <label for="name">Player´s First Name:</label>
+                    <input class="name" type="text" name="name" id="name">
+                    <label for="last-name">Last Name:</label>
+                    <input class="last-name"type="text" name="last-name" id="last-name">
+                </div>
+                <div>
+                    <label for="address">Street Address:</label>
+                    <input class="address"type="text" name="address" id="address">
+                </div>
+                <div>
+                    <label for="city">City:</label>
+                    <input class="city" type="text" name="city" id="city">
+                    <label for="zip-code">Zip Code:</label>
+                    <input class="zip-code" type="number" name="zip-code" id="zip-code">
+                </div>
+                <div>
+                    <label for="birth">Birth Date: (mm/dd/yyyy)</label>
+                    <input class="date" type="date" name="birth" id="birth">
+                    <label for="gender">Gender: Female</label>
+                    <input class="radiusquare" type="radio" name="gender" id="gender" value="female">
+                    <label for="gender">Male</label>
+                    <input class="radiusquare" type="radio" name="gender" id="gender" value="male">
+                </div>
+                <div>
+                    <p class="pre-school">Grade:</p>
+                    <input class="radiusquare" type="radio" name="grade" id="pre-school" value="pre-school">
+                    <label for="grade">Pre-School</label>
+                    <input class="radiusquare" type="radio" name="grade" id="grade" value="1st">
+                    <label for="grade"><sup>1st</sup></label>
+                    <input class="radiusquare" type="radio" name="grade" id="grade" value="2nd">
+                    <label for="grade"><sup>2nd</sup></label>
+                    <input class="radiusquare" type="radio" name="grade" id="grade" value="3rd">
+                    <label for="grade"><sup>3rd</sup></label>
+                    <input class="radiusquare" type="radio" name="grade" id="grade" value="4th">
+                    <label for="grade"><sup>4th</sup></label>
+                    <input class="radiusquare" type="radio" name="grade" id="grade" value="5th">
+                    <label for="grade"><sup>5th</sup></label>
+                </div>
             </fieldset>
             
-            <fieldset>
+            <fieldset class="school">
                 <p>Which elementary school do you live near?</p>
                 <p>Closest School: </p>
-                <input type="checkbox" name="school" id="school" value="AJ Katzenmaier">
-                <label for="school">AJ Katzenmaier</label>
-                <input type="checkbox" name="school" id="school" value="Marjorie P Hart">
-                <label for="school">Marjorie P Hart</label>
-                <input type="checkbox" name="school" id="school" value="Greenbay">
-                <label for="school">Greenbay</label>
-                <input type="checkbox" name="school" id="school" value="North Elementary">
-                <label for="school">North Elementary</label>
-                <input type="checkbox" name="school" id="school" value="Howard A Yeager">
-                <label for="school">Howard A Yeager</label>
-                <input type="checkbox" name="school" id="school" value="South Elementary">
-                <label for="school">South Elementary</label>
+                <div>
+                    <input type="checkbox" name="school" id="school" value="AJ Katzenmaier">
+                    <label for="school">AJ Katzenmaier</label>
+                    <input type="checkbox" name="school" id="school" value="Marjorie P Hart">
+                    <label for="school">Marjorie P Hart</label>
+                    <input type="checkbox" name="school" id="school" value="Greenbay">
+                    <label for="school">Greenbay</label>
+
+                </div>
+                <div>
+                    <input type="checkbox" name="school" id="school" value="North Elementary">
+                    <label for="school">North Elementary</label>
+                    <input type="checkbox" name="school" id="school" value="Howard A Yeager">
+                    <label for="school">Howard A Yeager</label>
+                    <input type="checkbox" name="school" id="school" value="South Elementary">
+                    <label for="school">South Elementary</label>
+                </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="position">
                 <p>What position(s) do you normally play? (check all that apply)</p>
                 <input type="checkbox" name="position" id="position" value="Forward">
                 <label for="position">Forward</label>
@@ -92,7 +107,7 @@
                 <input type="checkbox" name="position" id="position" value="Goalkeeper">
                 <label for="position">Goalkeeper</label>
             </fieldset>
-            <fieldset>
+            <fieldset class="uniform">
                 <p>Uniform Size:</p>
                 <input class="radiusquare" type="radio" name="uniform" id="Forward" value="Youth Smal">
                 <label for="uniform">Youth Smal</label>
@@ -109,19 +124,21 @@
                 <input class="radiusquare" type="radio" name="uniform" id="uniform" value="Small">
                 <label for="uniform">Small</label>
             </fieldset>
-            <fieldset>
-                <p>Permission to Play</p>
+            <fieldset class="permission">
+                <h4>Permission to Play</h4>
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey program and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant´s participation in the programand/or being transported to or from MDHL sponsored activities, which transportation.
                 </p>
                 <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                <label for="parent">Parent/GuardianSignature: </label>
-                <input class="parent" type="text" name="parent" id="parent" value="">
-                <label for="date">Date: </label>
-                <input class="date" type="text" name="date" id="date" value="">
-
+                <div>
+                    <label for="parent">Parent/GuardianSignature: </label>
+                    <input class="parent" type="text" name="parent" id="parent" value=""><br>
+                </div>
+                <div>
+                    <label for="date">Date: </label>
+                    <input class="date" type="date" name="date" id="date" value="">
+                </div>
+                <input class="enviar" type="submit" value="enviar">
             </fieldset>
-            <input type="submit" value="ENVIAR">
-        </form>
     </main>
 </body>
 </html>

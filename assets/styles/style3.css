@@ -192,11 +192,51 @@ th{
 }
 
 /* from here form */
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
 fieldset{
-    padding: 20px 150px;
+    padding: 30px 100px;
+    border: 0;
+    align-content: space-between;
+}
+
+
+.name{
+    width: 300px;
+}
+.last-name{
+    width: 300px;
+}
+.address{
+    width: 835px;
+}
+.city{
+    width: 515px;
+}
+.zip-code{
+    width: 325px;
+}
+.date{
+    width: 225px;
 }
 .pre-school{
     display: inline;
+}
+.school{
+    width: 100%;
+
+}
+.school p{
+    padding: 12px 0px;
+}
+.position p{
+    padding: 12px 0px;
+}
+.uniform p{
+    padding: 12px 0px;
 }
 .name{
     border-top: none;
@@ -242,9 +282,32 @@ fieldset{
     border-top: none;
     border-right: none;
     border-left: none;
+    width: 500px;
 }
 .date{
     border-top: none;
     border-right: none;
     border-left: none;
+}
+fieldset>p{
+    font-weight: 700;
+}
+.permission>p{
+    font-weight: 400;
+}
+.permission :nth-child(2){
+    text-align: justify;
+}
+.permission h4{
+    padding: 12px 0;
+}
+fieldset>div{
+    padding: 12px 0;
+}
+.enviar{
+    width: 120px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
 }
