@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lexend Exa', sans-serif;
+    background: rgb(229, 235, 226);
 }
 .image-header{
     width: 100%;
@@ -306,7 +307,7 @@ fieldset>div{
 }
 .enviar{
     width: 120px;
-    background-color: bisque;
+    background: linear-gradient(#f1ef75,rgb(165, 235, 163));;
     border-radius: 5px;
     padding: 5px;
     font-size: 16px;
