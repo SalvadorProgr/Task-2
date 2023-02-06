@@ -228,14 +228,14 @@ fieldset{
     border-right: none;
     border-left: none;
 }
-.radiocuadrado{
+.radiusquare{
     
     appearance: none;
     border: 1px solid black;
     padding: 0.5em;
     
 }
-.radiocuadrado:checked{
+.radiusquare:checked{
     background: #000000;
 }
 .parent{
