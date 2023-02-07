@@ -182,7 +182,7 @@ th{
 }
 .datos-cabecera{
     font-size: 18px;
-    padding: 50px;
+    padding: 0px 50px;
 }
 .datos-cabecera p{
     padding: 15px;
@@ -321,4 +321,11 @@ fieldset>div{
     border-radius: 5px;
     padding: 5px;
     font-size: 16px;
+}
+
+/* styles of maps */
+.maps{
+    width: 250px;
+    height: 100px;
+    box-shadow: 3px 3px 10px 3px #3D7ECE;
 }
